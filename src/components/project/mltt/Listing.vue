@@ -7,7 +7,7 @@
             <h2>Mobile Legends: Tank Tank</h2>
             <p>A tool to assist newer players pick the right hero.</p>
             <p>This project has been sunsetted.</p>
-            <a class="button">
+            <a class="button" href="https://mltt-dev.netlify.app/" target="_blank">
                 Visit Old Demo
             </a>
         </div>
