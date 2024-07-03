@@ -22,6 +22,12 @@ const routes: Array<RouteRecordRaw> = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
   },
+  {
+    path: "/potatodex",
+    name: "potato-dex",
+    component: () => 
+      import("../components/project/tatodex/site/Index.vue"),
+  }
 ];
 
 const router = createRouter({
