@@ -2,7 +2,7 @@
   <h1>PotatoDex</h1>
     <main>
       <div id="potato-viewer">
-        <video :src="currentPotato.video" autoplay muted loop></video>
+        <video ref="potatoVideo" :src="currentPotato.video" autoplay muted loop></video>
         <div class="text-content">
           <h2>{{ currentPotato.name }}</h2>
           <div v-html="currentPotato.description"></div>
@@ -10,8 +10,11 @@
       </div>
 
       <ul id="potato-list">
-        <li v-for="(potato, index) in potatoes" :key="potato.name + index" class="potato-list-item"  :class="{ 'potato-list-item--active': currentIndex === index }">
-          <img class="potato-icon" :src="potato.icon" @click="currentIndex = index">
+        <li v-for="(potato, index) in potatoes" :key="potato.name + index" class="potato-list-item"  
+        :class="{ 'potato-list-item--active': currentIndex === index }"
+         @click="onSelectPotato(index)"
+        >
+          <img class="potato-icon" :src="potato.icon">
           <p>{{ potato.name }}</p>
         </li>
       </ul>
@@ -19,13 +22,28 @@
   </template>
   
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, nextTick } from 'vue';
 import { potatoes } from './data/Potatoes';
 const currentIndex = ref(0);
+const potatoVideo = ref()
 
 const currentPotato = computed(() => {
   return potatoes[currentIndex.value]
 });
+
+const onSelectPotato = async (index) => {
+  setSelectedIndex(index)
+  await nextTick()
+  scrollToVideo()
+};
+
+const setSelectedIndex = (index) => {
+  currentIndex.value = index
+};
+
+const scrollToVideo = () => {
+  potatoVideo.value.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
 </script>
 
 <style scoped>
@@ -73,6 +91,11 @@ main {
   margin: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  box-shadow: 8px 8px 33px black;
+  margin-top: 2rem;
 }
 
 .potato-list-item {
@@ -102,12 +125,49 @@ main {
 }
 
 @media only screen and (max-width: 991px) {
-  #potato-list {
-    flex-wrap: wrap;
+  .text-content {
+    margin-left: calc(375px + 1.5rem);
+    font-size: 1.5rem;
+  }
+
+  .text-content h2 {
+    font-size: 2.5rem;
   }
 
   .potato-list-item {
     width: calc(100% / 4);
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  .potato-list-item {
+    width: calc(100% / 3);
+  }
+
+  #potato-viewer {
+    height: unset;
+  }
+
+  #potato-viewer video {
+    position: unset;
+    height: unset;
+    width: 100%;
+  }
+
+  .text-content {
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    padding: 2rem 2rem 0;
+  }
+
+  main {
+    background-color: #232321;
+    padding: 2rem 2rem 0;
   }
 }
 </style>
