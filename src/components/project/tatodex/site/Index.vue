@@ -76,7 +76,8 @@ main {
 }
 
 .potato-list-item {
-  width: calc(100% / 9);
+  width: calc(100% / 6);
+  flex-wrap: wrap;
   text-align: center;
   color: white;
   font-size: 1.2rem;

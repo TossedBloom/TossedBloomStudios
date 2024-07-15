@@ -6,17 +6,12 @@ export default {
     icon: icon,
     video: video,
     description: `
-        <p>"DON'T MAKE YOUR PROBLEM, MY PROBLEM". </p>
-        <p>
-            Hot Potato is the other old timer in the building, except he's short tempered. It looks like he's burning the whole world.
-            You can't blame him though. Hot Potato is always passed around, jumping from one place to another.
-        </p>
-        <p>
-            All that experience though has made him extremely fast and efficient. Good at covering the bases of others and make them excel if they know how to work with him.
-        </p>
-        <p>
-            He will stay angry at you until he's satisfied. But he always calms back down... until you cause him trouble again.
-        </p>
+        <p>Hot Potato has been around long and his temper is as fiery as his name suggests. With a short fuse, 
+        he often feels like he’s about to ignite. Always on the move, he zooms from one task to another, 
+        fueled by an intense desire to get things done. Tread carefully — his anger simmers until he’s satisfied. 
+        He'll cool down until you provoke him again. </p>
+
+        <p>What a burnout potential...</p>
     `,
     detail: `
         <p>Will get angry when he sees the player. After a short delay, he will charge 3 times.</p>

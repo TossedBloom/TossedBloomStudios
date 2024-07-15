@@ -6,8 +6,12 @@ export default {
     icon: icon,
     video: video,
     description: `
-        <p>Being very high up in the ladder, Shepherd has no fears. Shepherd has the world at his disposal.</p>
-        <p>Never slowing down for anything, Shepherd wants to succeed and is always working forward.</p>
+    <p>
+        Fearless and ambitious, Shepherd is a show-stopper at the top of the ladder. 
+        With the world at his disposal, he maintains an unyielding pace, always pushing forward and never misses. 
+        Plus, he always has surprises up his sleeve, keeping everyone on their toes.
+    </p>
+    <p>An unstoppable visionary.</p>
     `,
     detail: `
         <p>Shepherd has 4 projectile attacks: Carrots, Peas, Meat and Mixed Stuffings.</p>

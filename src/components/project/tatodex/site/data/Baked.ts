@@ -6,8 +6,7 @@ export default {
     icon: icon,
     video: video,
     description: `
-        <p>Baked is an old timer. He knows how to do many things, even the most obscure tasks; and he does them well. He's also aware of all the company's policies and will avoid trouble; playing by the book.</p>
-        <p>He's the wise grandfather-figure you admire in the office.</p>
+        <p>Baked is an old timer, brimming with wisdom. He tackles tasks strategically and keeps himself out of trouble.</p>
         `,
     detail: `
         <p>
