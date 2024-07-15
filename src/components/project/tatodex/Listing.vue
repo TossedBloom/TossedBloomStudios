@@ -1,10 +1,7 @@
 <template>
     <div class="item">
         <div class="media">
-            <video muted autoplay loop>
-            <source src="@/assets/videos/potatocop-demo.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video> 
+            <img src="@/assets/images/potato-cop.svg">
         </div>
         <div class="content">
             <h2>PotatoDex</h2>
