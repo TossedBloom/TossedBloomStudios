@@ -116,3 +116,70 @@ export const potatoes: Potato[] = [
 //         `
 //     },
 // ]
+// Baked Potato:
+// Brimming with wisdom, Baked knows how to do many things. Restoring old office equipment? Event planning? Taking care of the office's dying plants? Name it, and you got it. He knows the policies and plays by the book, embodying the wise grandfather figure we all admire. 
+
+// After all, he is just a boomer.
+// -
+
+// Fries:
+// Years of working have seasoned him with experience, shaping him into someone who wears many hats and fills various roles. While his salty demeanor can be off-putting to some, it reflects his resilience. A force to reckon with at his peak, deep down he’s just a fresh soul wanting to be at home and laze around.
+
+
+// Saltiness aside, he knows how to get the job done.
+// -
+
+// Hot Potato:
+// Hot Potato has been around long and his temper is as fiery as his name suggests. With a short fuse, he often feels like he’s about to ignite. Always on the move, he zooms from one task to another, fueled by an intense desire to get things done. Tread carefully — his anger simmers until he’s satisfied. He'll cool down until you provoke him again.
+
+// What a burnout potential...
+// -
+
+// Mashed Potato:
+// Mashed is the funky idiosyncratic  manager you encounter in the office. You'll always catch him gliding in and out with a smiley demeanor... But you rarely see him actually working, leading you to wonder about his true capabilities. His charm and unpredictability make him an interesting mystery at work.
+
+// Does he have an aura of competence, or does he even have an aura at all?
+// -
+
+// Shepherd Pie:
+// Fearless and ambitious, Shepherd is a show-stopper at the top of the ladder. With the world at his disposal, he maintains an unyielding pace, always pushing forward and never misses. Plus, he always has surprises up his sleeve, keeping everyone on their toes.
+
+// An unstoppable visionary.
+// -
+
+// Tornado Potato:
+// Hyperfocused and fiercely territorial, Tornado employs clever strategies to keep distractions at bay. He often uses manipulative tactics to deter anyone who intrudes on his space. His avoidant nature makes him prefer solitude. Trigger him, and he may unleash a whirlwind of drama that shakes up the office dynamics.
+
+// As chaos spirals, calmness disappears...
+// -
+
+// Minion Potato:
+// A quintessential normal worker, dedicated and reliable. He listens intently to his boss, always following instructions without question. Routine-oriented, he adheres to a specific schedule that helps him stay on track. Like many others in his position, he has potential, but he needs to find the confidence to unlock it.
+
+// I listen, I learn, I advance.
+// -
+
+// Potato Boss:
+// Boss is a natural-born leader who knows operations like the back of his hand. Certified in forklift driving, inventory packing, and barcode scanning (with a wall of certs), he's the logistics wizard everyone relies on. His hands-on know-how has built a team that listens and follows without hesitation.
+
+// Leading the pack with logistics knack.
+// -
+
+// Chip:
+// Chip only wants to excel in his work. Just... try to not get in his way. He hates it when he is disturb. If he loses track of what he needs to do, he will throw a hissy fit; and his devoted followers will not be afraid to show displeasure at anyone who interferes with their bosses' duties.
+
+// Onwards! Unless you make a mess out of nothing.
+// -
+
+// Crumbs:
+// Crumb exists in a perpetual limbo between Chip and those beneath him. While he mirrors Chip's relentless, goal-driven mindset, he remains more of devoted follower than a leader. In Chip's absence, Crumb steps into a quasi-leadership role, growing the team with dedication and precision.
+
+// All good things must crumb to an end...
+// -
+
+// Crumblings:
+// Just like every devoted cult follower, Crumblings are loyal to their leaders, and will follow any blindly. Heck, they can even get distracted by them. Despite their small size, they will never shut up; vocalising their undying support and fiercely protecting their leaders at any sign of threat.
+
+
+// Size doesn't matter, loyalty does.
+// -
