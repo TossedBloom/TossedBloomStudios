@@ -44,4 +44,15 @@ const router = createRouter({
   routes,
 });
 
+router.beforeEach((to, from, next) => {
+  // Check if the route has meta information for the title
+  if (to.meta.title) {
+    document.title = to.meta.title as string;
+  } else {
+    // Default to a generic title if not provided
+    document.title = 'Your Default Title';
+  }
+  next();
+});
+
 export default router;
