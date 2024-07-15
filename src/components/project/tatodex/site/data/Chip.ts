@@ -7,10 +7,10 @@ export default {
     video: video,
     description: `
         <p>
-            Crumb exists in a perpetual limbo between Chip and those beneath him. While he mirrors Chip's relentless, goal-driven mindset, he remains more of devoted follower than a leader. In Chip's absence, Crumb steps into a quasi-leadership role, growing the team with dedication and precision.
+           Chip only wants to excel in his work. Just... try to not get in his way. He hates it when he is disturb. If he loses track of what he needs to do, he will throw a hissy fit; and his devoted followers will not be afraid to show displeasure at anyone who interferes with their bosses' duties.
         </p>
         <p>
-            "All good things must crumb to an end..."
+            "Chip in or get lost!"
         </p>
         `,
     detail: `
