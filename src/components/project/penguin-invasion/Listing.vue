@@ -7,7 +7,7 @@
             <h2>The Penguin Invasion</h2>
             <p>Are you ready to fight off the penguin invasion? I thought so.</p>
             <p>Prepare yourself!</p>
-            <a class="button" href=https://thepenguininvasion.netlify.app/ target="_blank">
+            <a class="button" href=https://penguins.tossedbloom.com target="_blank">
                 Read The Penguin Invasion
             </a>
         </div>
