@@ -1,5 +1,5 @@
 <template>
-  <nav v-if="!$route.meta.hideNavbar">
+  <nav v-if="$route.name !== 'home'">
     <router-link to="/">Home</router-link> |
     <router-link to="/projects">Projects</router-link>
   </nav>

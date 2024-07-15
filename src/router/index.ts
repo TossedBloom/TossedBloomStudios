@@ -15,7 +15,6 @@ const routes: Array<RouteRecordRaw> = [
     path: "/projects",
     name: "project",
     meta: { 
-      hideNavbar: true,
       title: 'Projects'
     },
     component: () => import("../views/ProjectsView.vue")
@@ -33,7 +32,6 @@ const routes: Array<RouteRecordRaw> = [
     path: "/potatodex",
     name: "potato-dex",
     meta: { 
-      hideNavbar: true,
       title: 'PotatoDex - Potato Almanac'
     },
     component: () => 
