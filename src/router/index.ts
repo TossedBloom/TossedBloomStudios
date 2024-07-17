@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
 const routes: Array<RouteRecordRaw> = [
@@ -9,7 +9,7 @@ const routes: Array<RouteRecordRaw> = [
     meta: { 
       hideNavbar: true,
       title: 'TossedBloom Studios'
-     },
+    },
   },
   {
     path: "/projects",
@@ -19,15 +19,6 @@ const routes: Array<RouteRecordRaw> = [
     },
     component: () => import("../views/ProjectsView.vue")
   },
-  // {
-  //   path: "/about",
-  //   name: "about",
-  //   // route level code-splitting
-  //   // this generates a separate chunk (about.[hash].js) for this route
-  //   // which is lazy-loaded when the route is visited.
-  //   component: () =>
-  //     import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
-  // },
   {
     path: "/potatodex",
     name: "potato-dex",
@@ -40,7 +31,7 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(process.env.BASE_URL),
   routes,
 });
 
