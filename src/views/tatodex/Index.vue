@@ -23,7 +23,7 @@
   
 <script setup>
 import { ref, computed, nextTick } from 'vue';
-import { potatoes } from './data/Potatoes';
+import { potatoes } from '@/data/tatodex/potatoes/exports';
 const currentIndex = ref(0);
 const potatoVideo = ref()
 

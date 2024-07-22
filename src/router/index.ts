@@ -26,7 +26,7 @@ const routes: Array<RouteRecordRaw> = [
       title: 'PotatoDex - Potato Almanac'
     },
     component: () => 
-      import("../components/project/tatodex/site/Index.vue"),
+      import("../views/tatodex/Index.vue"),
   }
 ];
 

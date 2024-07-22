@@ -1,4 +1,3 @@
-import bakedIcon from '@/assets/images/potatoes/Baked.png';
 type Potato = {
     name: string
     icon?: string
