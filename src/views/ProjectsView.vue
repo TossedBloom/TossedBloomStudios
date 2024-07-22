@@ -3,22 +3,26 @@
       <h1>Projects</h1>
 
       <ul id="project-list">
-        <li>
-          <PotatoCopListing />
-          <PotatoCopGlossaryListing />
-          <ThePenguinInvasionListing />
-          <MLTTListing />
+        <li v-for="project in projects" :key="project.title">
+          <ProjectListItem :project="project"/>
         </li>
       </ul>
     </div>
   </template>
 
 <script setup lang="ts">
-import PotatoCopListing from '@/components/project/potato-cop/Listing.vue'
-import PotatoCopGlossaryListing from '@/components/project/tatodex/Listing.vue'
-import ThePenguinInvasionListing from '@/components/project/penguin-invasion/Listing.vue'
-import MLTTListing from '@/components/project/mltt/Listing.vue'
+import PotatoCopListingData from '@/data/potato-cop/Listing'
+import PotatoCopGlossaryListingData from '@/data/tatodex/Listing'
+import ThePenguinInvasionListingData from '@/data/penguin-invasion/Listing'
+import MLTTListingData from '@/data/mltt/Listing'
+import ProjectListItem from '@/components/ProjectListItem.vue'
 
+const projects = [
+  PotatoCopListingData,
+  PotatoCopGlossaryListingData,
+  ThePenguinInvasionListingData,
+  MLTTListingData
+]
 </script>
 
 <style scoped lang="scss">
