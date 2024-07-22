@@ -1,9 +1,13 @@
 import video from '@/assets/videos/potatoes/HotProfile.mp4';
-import icon from '@/assets/images/potatoes/HotIcon.avif';
+import iconAvif from '@/assets/images/potatoes/HotIcon.avif';
+import iconWebp from '@/assets/images/potatoes/HotIcon.webp';
 
 export default {
     name: 'Hot Potato',
-    icon: icon,
+    icon: {
+        avif: iconAvif,
+        webp: iconWebp
+    },
     video: video,
     description: `
         <p>Hot Potato has been around long and his temper is as fiery as his name suggests. With a short fuse, 

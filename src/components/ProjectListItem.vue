@@ -1,7 +1,11 @@
 <template>
     <div class="item" :style="[`backgroundColor: ${project.style.backgroundColor}`]">
         <div class="media desktop-media">
-            <img v-if="project.media.type === 'image'" :src="project.media.url">
+            <picture v-if="project.media.type === 'image'">
+                <source :srcset="project.media.url.avif" type="image/avif">
+                <source :srcset="project.media.url.webp" type="image/webp">
+                <img>
+            </picture>
             <template v-else>
                 <video muted autoplay loop>
                     <source :src="project.media.url" type="video/mp4">
@@ -13,7 +17,12 @@
         <div class="content" :style="[`color: ${project.style.textColor}`]">
             <h2>{{project.title}}</h2>
             <div class="media mobile-media">
-                <img v-if="project.media.type === 'image'" :src="project.media.url">
+                <picture v-if="project.media.type === 'image'">
+                    <source :srcset="project.media.url.avif" type="image/avif">
+                    <source :srcset="project.media.url.webp" type="image/webp">
+                    <img>
+                </picture>
+
                 <template v-else>
                     <video muted autoplay loop>
                         <source :src="project.media.url" type="video/mp4">

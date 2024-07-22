@@ -1,6 +1,9 @@
 type Potato = {
     name: string
-    icon?: string
+    icon?: {
+        avif: string,
+        webp: string
+    }
     video?: string
     description?: string
     detail: string

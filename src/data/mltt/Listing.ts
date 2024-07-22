@@ -1,12 +1,15 @@
-import media from '@/assets/images/tigreal.avif';
+import mediaAvif from '@/assets/images/tigreal.avif';
+import mediaWebp from '@/assets/images/tigreal.webp';
 
 export default {
     title: 'Mobile Legends: Tank Tank',
     subheader: 'A tool to assist newer players pick the right hero. (Decommissioned).',
     media: {
         type: 'image',
-        url: media,
-        width: '80%'
+        url: {
+            avif: mediaAvif,
+            webp: mediaWebp
+        }
     },
     cta: {
         to: 'https://mltt-dev.netlify.app/',

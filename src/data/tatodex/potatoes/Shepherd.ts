@@ -1,9 +1,13 @@
 import video from '@/assets/videos/potatoes/ShepherdProfile.mp4';
-import icon from '@/assets/images/potatoes/ShepherdIcon.avif';
+import iconAvif from '@/assets/images/potatoes/ShepherdIcon.avif';
+import iconWebp from '@/assets/images/potatoes/ShepherdIcon.webp';
 
 export default {
     name: `Shepherd's Pie`,
-    icon: icon,
+    icon: {
+        avif: iconAvif,
+        webp: iconWebp
+    },
     video: video,
     description: `
     <p>

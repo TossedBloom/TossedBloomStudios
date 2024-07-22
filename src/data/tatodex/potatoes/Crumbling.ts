@@ -1,9 +1,13 @@
 import video from '@/assets/videos/potatoes/CrumblingProfile.mp4';
-import icon from '@/assets/images/potatoes/CrumblingIcon.avif';
+import iconAvif from '@/assets/images/potatoes/CrumblingIcon.avif';
+import iconWebp from '@/assets/images/potatoes/CrumblingIcon.webp';
 
 export default {
     name: 'Crumbling',
-    icon: icon,
+    icon: {
+        avif: iconAvif,
+        webp: iconWebp
+    },
     video: video,
     description: `
         <p>

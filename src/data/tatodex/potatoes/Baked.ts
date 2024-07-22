@@ -1,9 +1,13 @@
 import video from '@/assets/videos/potatoes/BakedProfile.mp4';
-import icon from '@/assets/images/potatoes/BakedIcon.avif';
+import iconAvif from '@/assets/images/potatoes/BakedIcon.avif';
+import iconWebp from '@/assets/images/potatoes/BakedIcon.webp';
 
 export default {
     name: 'Baked Potato',
-    icon: icon,
+    icon: {
+        avif: iconAvif,
+        webp: iconWebp
+    },
     video: video,
     description: `
         <p>Baked is an old timer, brimming with wisdom. He tackles tasks strategically and keeps himself out of trouble.</p>

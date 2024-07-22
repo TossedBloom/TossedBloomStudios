@@ -1,9 +1,13 @@
 import video from '@/assets/videos/potatoes/MashedProfile.mp4';
-import icon from '@/assets/images/potatoes/MashedIcon.avif';
+import iconAvif from '@/assets/images/potatoes/MashedIcon.avif';
+import iconWebp from '@/assets/images/potatoes/MashedIcon.webp';
 
 export default {
     name: `Mashed Potato`,
-    icon: icon,
+    icon: {
+        avif: iconAvif,
+        webp: iconWebp
+    },
     video: video,
     description: `
         <p>

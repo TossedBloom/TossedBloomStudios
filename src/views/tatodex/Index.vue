@@ -14,7 +14,11 @@
         :class="{ 'potato-list-item--active': currentIndex === index }"
          @click="onSelectPotato(index)"
         >
-          <img class="potato-icon" :src="potato.icon">
+          <picture>
+            <source :srcset="potato.icon.avif" type="image/avif">
+            <source :srcset="potato.icon.webp" type="image/webp">
+            <img class="potato-icon">
+          </picture>
           <p>{{ potato.name }}</p>
         </li>
       </ul>

@@ -1,11 +1,15 @@
-import media from '@/assets/images/penguin-fight.avif';
+import mediaAvif from '@/assets/images/penguin-fight.avif';
+import mediaWebp from '@/assets/images/penguin-fight.webp';
 
 export default {
     title: 'The Penguin Invasion',
     subheader: 'The complete guide to survive a penguin invasion.',
     media: {
         type: 'image',
-        url: media
+        url: {
+            avif: mediaAvif,
+            webp: mediaWebp
+        }
     },
     cta: {
         to: 'https://penguins.tossedbloom.com',

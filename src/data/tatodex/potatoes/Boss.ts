@@ -1,9 +1,13 @@
 import video from '@/assets/videos/potatoes/ChipProfile.mp4';
-import icon from '@/assets/images/potatoes/ChipIcon.avif';
+import iconAvif from '@/assets/images/potatoes/ChipIcon.avif';
+import iconWebp from '@/assets/images/potatoes/ChipIcon.webp';
 
 export default {
     name: 'Boss',
-    icon: icon,
+    icon: {
+        avif: iconAvif,
+        webp: iconWebp
+    },
     video: video,
     description: `
         <p>

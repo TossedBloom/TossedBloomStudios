@@ -8,7 +8,7 @@ const routes: Array<RouteRecordRaw> = [
     component: HomeView,
     meta: { 
       hideNavbar: true,
-      title: 'TossedBloom Studios'
+      title: 'TossedBloom Studio'
     },
   },
   {

@@ -1,9 +1,13 @@
 import video from '@/assets/videos/potatoes/TornadoProfile.mp4';
-import icon from '@/assets/images/potatoes/TornadoIcon.avif';
+import iconAvif from '@/assets/images/potatoes/TornadoIcon.avif';
+import iconWebp from '@/assets/images/potatoes/TornadoIcon.webp';
 
 export default {
     name: 'Tornado Potato',
-    icon: icon,
+    icon: {
+        avif: iconAvif,
+        webp: iconWebp
+    },
     video: video,
     description: `
         <p>
