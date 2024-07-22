@@ -38,5 +38,9 @@ nav {
   }
 }
 
-// 
+@media only screen and (max-width: 774px) {
+  nav {
+    padding: 30px 2.5rem;
+  }
+}
 </style>

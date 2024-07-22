@@ -39,4 +39,11 @@ h1 {
   padding: 0;
   list-style-type: none;
 }
+
+@media only screen and (max-width: 774px) {
+  h1 {
+    font-size: 3rem;
+    padding: 2rem 2.5rem 0;
+  }
+}
 </style>
