@@ -23,6 +23,8 @@ type Potato = {
  * Tornado
  * Shepherd
  */
+import Minion from './Minion'
+import Boss from './Boss'
 import Fries from './Fries';
 import Fry from './Fry';
 import Mashed from './Mashed';
@@ -36,6 +38,8 @@ import Shepherd from './Shepherd';
 
 
 export const potatoes: Potato[] = [
+    // Minion,
+    // Boss,
     Fries,
     Fry,
     Mashed,
