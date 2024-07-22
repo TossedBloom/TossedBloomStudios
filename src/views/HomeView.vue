@@ -9,7 +9,7 @@
       <h1>TossedBloom Studio</h1>
       <ul>
         <li><router-link to="/projects">Projects</router-link></li>
-        <li><router-link to="/shop">Shop</router-link></li>
+        <li><router-link to="#" style="text-decoration: line-through;">Shop (Coming Soon)</router-link></li>
       </ul>
     </div>
   </div>
