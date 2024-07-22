@@ -10,8 +10,6 @@ export default {
         he often feels like he’s about to ignite. Always on the move, he zooms from one task to another, 
         fueled by an intense desire to get things done. Tread carefully — his anger simmers until he’s satisfied. 
         He'll cool down until you provoke him again. </p>
-
-        <p>What a burnout potential...</p>
     `,
     detail: `
         <p>Will get angry when he sees the player. After a short delay, he will charge 3 times.</p>

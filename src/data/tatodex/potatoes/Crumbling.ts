@@ -7,10 +7,9 @@ export default {
     video: video,
     description: `
         <p>
-            Crumb exists in a perpetual limbo between Chip and those beneath him. While he mirrors Chip's relentless, goal-driven mindset, he remains more of devoted follower than a leader. In Chip's absence, Crumb steps into a quasi-leadership role, growing the team with dedication and precision.
-        </p>
-        <p>
-            "All good things must crumb to an end..."
+            Crumblings are at the bottom of the food chain, but they're fiercely dedicated to their leader. 
+            They'll do anything to protect their leader and get in their good books. 
+            However, that doesn't mean they enjoy hanging out with them outside of work.
         </p>
         `,
     detail: `

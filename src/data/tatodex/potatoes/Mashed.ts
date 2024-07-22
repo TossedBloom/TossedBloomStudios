@@ -6,8 +6,10 @@ export default {
     icon: icon,
     video: video,
     description: `
-        <p>Mashed is that one eccentric manager you see in the office. Always smiling and happy, looking all stress free.</p>
-        <p>You never really see him do work but he's always gliding in and out of the office with a smile so he must be capable... right?</p>\
+        <p>
+            Mashed is the quirky, funky manager you see around the office. He’s always gliding in and out with a big smile, but you hardly ever see him actually working, which makes you wonder what he's really good at. 
+            Maybe he's superb at making jokes, because the Crumblings seem to enjoy his company more than their own supervisors. 
+        </p>
     `,
     detail: `Will melt and slide towards the player. Upon reaching his destination, he will shoot out Mashed Slimes. 
     Mashed Slimes will spawn Mashed Puddle and slow the player down.`

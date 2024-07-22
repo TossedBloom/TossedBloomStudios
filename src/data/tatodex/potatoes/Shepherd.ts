@@ -7,11 +7,8 @@ export default {
     video: video,
     description: `
     <p>
-        Fearless and ambitious, Shepherd is a show-stopper at the top of the ladder. 
-        With the world at his disposal, he maintains an unyielding pace, always pushing forward and never misses. 
-        Plus, he always has surprises up his sleeve, keeping everyone on their toes.
+        Shepherd made his way to the top by being daring and ambitious. With everything at his fingertips, he’s always moving fast and never misses a beat. He knows exactly how to take action, always aiming right at his target. Plus, he’s always got surprises up his sleeve (or under his suit) that keep everyone on their toes.
     </p>
-    <p>An unstoppable visionary.</p>
     `,
     detail: `
         <p>Shepherd has 4 projectile attacks: Carrots, Peas, Meat and Mixed Stuffings.</p>
