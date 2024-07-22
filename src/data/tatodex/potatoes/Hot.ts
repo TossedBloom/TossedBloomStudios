@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/HotProfile.mp4';
-import icon from '@/assets/images/potatoes/HotIcon.png';
+import icon from '@/assets/images/potatoes/HotIcon.avif';
 
 export default {
     name: 'Hot Potato',

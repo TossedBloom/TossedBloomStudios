@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/CrumblingProfile.mp4';
-import icon from '@/assets/images/potatoes/CrumblingIcon.png';
+import icon from '@/assets/images/potatoes/CrumblingIcon.avif';
 
 export default {
     name: 'Crumbling',

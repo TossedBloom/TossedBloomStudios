@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/CrumbProfile.mp4';
-import icon from '@/assets/images/potatoes/CrumbIcon.png';
+import icon from '@/assets/images/potatoes/CrumbIcon.avif';
 
 export default {
     name: 'Crumb',

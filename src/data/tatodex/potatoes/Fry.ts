@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/FryProfile.mp4';
-import icon from '@/assets/images/potatoes/FryIcon.png';
+import icon from '@/assets/images/potatoes/FryIcon.avif';
 
 export default {
     name: `Fry`,

@@ -1,4 +1,4 @@
-import media from '@/assets/images/penguin-fight.svg';
+import media from '@/assets/images/penguin-fight.avif';
 
 export default {
     title: 'The Penguin Invasion',

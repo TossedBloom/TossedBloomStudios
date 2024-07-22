@@ -1,4 +1,4 @@
-import media from '@/assets/images/potato-cop.svg';
+import media from '@/assets/images/potato-cop.avif';
 
 export default {
     title: 'PotatoDex',

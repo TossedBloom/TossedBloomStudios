@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/ChipProfile.mp4';
-import icon from '@/assets/images/potatoes/ChipIcon.png';
+import icon from '@/assets/images/potatoes/ChipIcon.avif';
 
 export default {
     name: 'Chip',

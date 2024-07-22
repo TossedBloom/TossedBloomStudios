@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/TornadoProfile.mp4';
-import icon from '@/assets/images/potatoes/TornadoIcon.png';
+import icon from '@/assets/images/potatoes/TornadoIcon.avif';
 
 export default {
     name: 'Tornado Potato',

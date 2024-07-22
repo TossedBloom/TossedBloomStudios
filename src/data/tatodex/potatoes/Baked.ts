@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/BakedProfile.mp4';
-import icon from '@/assets/images/potatoes/BakedIcon.png';
+import icon from '@/assets/images/potatoes/BakedIcon.avif';
 
 export default {
     name: 'Baked Potato',

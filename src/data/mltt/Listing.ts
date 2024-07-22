@@ -1,4 +1,4 @@
-import media from '@/assets/images/tigreal.webp';
+import media from '@/assets/images/tigreal.avif';
 
 export default {
     title: 'Mobile Legends: Tank Tank',

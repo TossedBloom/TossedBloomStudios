@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/ShepherdProfile.mp4';
-import icon from '@/assets/images/potatoes/ShepherdIcon.png';
+import icon from '@/assets/images/potatoes/ShepherdIcon.avif';
 
 export default {
     name: `Shepherd's Pie`,

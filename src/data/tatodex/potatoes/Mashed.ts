@@ -1,5 +1,5 @@
 import video from '@/assets/videos/potatoes/MashedProfile.mp4';
-import icon from '@/assets/images/potatoes/MashedIcon.png';
+import icon from '@/assets/images/potatoes/MashedIcon.avif';
 
 export default {
     name: `Mashed Potato`,
