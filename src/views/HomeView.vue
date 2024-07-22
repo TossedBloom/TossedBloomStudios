@@ -61,4 +61,16 @@ h1 {
   font-size: 5rem;
   margin-top: -3rem;
 }
+
+@media only screen and (max-width: 774px) {
+  h1 {
+    color: #F1F1F1;
+    font-size: 3rem;
+    margin-top: -1.5rem;
+  }
+
+  #home-content {
+    padding: 0 2.5rem;
+  }
+}
 </style>
