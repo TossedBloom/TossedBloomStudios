@@ -1,4 +1,4 @@
-import video from '@/assets/videos/potatoes/ChipProfile.mp4';
+import video from '@/assets/videos/potatoes/PotatoMinionProfile.mp4';
 import iconAvif from '@/assets/images/potatoes/PotatoIcon.avif';
 import iconWebp from '@/assets/images/potatoes/PotatoIcon.webp';
 
